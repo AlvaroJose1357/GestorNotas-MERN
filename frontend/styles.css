@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinear verticalmente */
+  font-weight: 700;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.delete-button,
+.edit-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px; /* Espacio entre botones */
+  color: #333; /* Color del texto */
+}
+
+.delete-button:hover {
+  color: red; /* Color de texto al pasar el mouse */
+  transition: 0.5s ease;
+}
+
+.edit-button:hover {
+  color: rgb(0, 153, 255); /* Color de texto al pasar el mouse */
+  transition: 0.5s ease;
+}
